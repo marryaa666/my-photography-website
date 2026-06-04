@@ -8,7 +8,6 @@
     --grad: linear-gradient(135deg, #ff4757 0%, #70a1ff 100%);
 }
 
-/* Pseudo-element: Selection - ლექცია 6 */
 ::selection {
     background-color: var(--primary);
     color: white;
@@ -22,7 +21,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* ფონის ფოტო და სიმკვეთრე (0.4 ნიშნავს რომ ფოტო კარგად ჩანს) */
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('pht1.jpg');
     background-size: cover;
     background-position: center;
@@ -32,7 +30,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header - ლექცია 5 (Sticky) & ლექცია 7 (Flex) */
 .header {
     position: sticky;
     top: 0;
@@ -74,7 +71,6 @@ body {
     transform: translateY(-2px); 
 }
 
-/* Hero Section */
 .hero {
     height: 60vh;
     display: flex;
@@ -86,7 +82,6 @@ body {
     background-attachment: fixed;
 }
 
-/* მთავარი გვერდის სპეციფიკური ფოტო */
 .hero-home {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('p6.jpg');
 }
@@ -99,7 +94,6 @@ body {
     animation: fadeIn 1.5s ease;
 }
 
-/* Grid Layout - ლექცია 7 */
 .container-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -107,7 +101,6 @@ body {
     padding: 60px 8%;
 }
 
-/* სერვისების ბარათები */
 .service-card {
     background: var(--glass);
     padding: 30px;
@@ -127,7 +120,6 @@ body {
     margin-bottom: 15px; 
 }
 
-/* ფოტო გრიდი - ლექცია 7 */
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -148,7 +140,6 @@ body {
     filter: saturate(1.2); 
 }
 
-/* ფორმის სტილი - ლექცია 7 */
 .form-container { 
     max-width: 600px; 
     margin: 50px auto; 
